@@ -1,0 +1,38 @@
+#quote-box {
+  padding: 5%;
+}
+
+#text {
+  font-size: 24px; 
+  font-style: normal;
+  text-align: left;
+}
+
+#author {
+  text-align: left;
+}
+
+#new-quote {
+ border: 0;
+ background-color: #383838;
+ box-shadow: none;
+ border-radius: 5px;
+ border: solid 2px white;
+ height: 50px;
+ width: 120px;
+ font-size: 12px;
+}
+
+#quote-box * {
+  color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+#tweet-quote {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#tweet-quote:hover {
+  text-decoration: underline;
+}
